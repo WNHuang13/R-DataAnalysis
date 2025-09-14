@@ -1,19 +1,32 @@
 # R-DataAnalysis
 Advanced data analysis in R, including Structural Equation Modeling, Item Response Theory, and visualization.
 
-## IRT
-- Contains code for **Item Response Theory (IRT)** analysis.  
+---
+
+## IRT (Item Response Theory)
+- `IRT\` 
+- **Purpose**: Models the relationship between participants’ responses to survey or test items and their underlying traits (e.g., ability, attitude).  
+- **Insights**: Helps identify item difficulty and discrimination, and estimates participants’ latent abilities. Useful for evaluating student learning outcomes or survey constructs in educational research.
+
+![Example IRT](IRT/IRTExample.png)
 
 ---
 
-## SEM
-- Contains two scripts related to **Structural Equation Modeling**:
-  - **Confirmatory Factor Analysis (CFA)**: Testing measurement models.
-  - **Structural Equation Model (SEM)**: Testing structural relationships between latent variables.
+## SEM (Structural Equation Modeling)
+- `SEM\`  
+- **Purpose**:  
+  - **Confirmatory Factor Analysis (CFA)** – Tests whether observed variables reflect latent constructs.  
+  - **Structural Equation Modeling (SEM)** – Tests relationships between latent variables.  
+- **Insights**: Enables understanding of complex relationships in education data, such as how different aspects of student engagement influence learning outcomes.
+
+![Example SEM](SEM/SEMExample.png)
 
 ---
 
-## Plot
-- Contains code for **data visualization** using `ggplot2`.  
+## Data Visualization
+- `Plot/`  
+- **Purpose**: Visualize patterns in data to communicate findings clearly.  
 
 ![Example ggplot](Plot/feedbacklength.png)
+
+---
